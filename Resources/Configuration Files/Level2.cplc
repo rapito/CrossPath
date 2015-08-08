@@ -1,0 +1,44 @@
+{
+    "Level": 
+	{
+        "Title": "Level 2",
+		"Next": "Level3.cplc",
+		"Speed": 35.0,
+		"Events":
+		[
+			{"Name":"LevelStart"}
+		],
+		"Background":
+		{
+			"Type":"Fixed",
+			"Image":"BG_LEVEL2.png",
+			"Music":"LEVEL_BG_1.mp3"
+		},
+		"Track":
+		{
+			"Player": { "Type": "Base" },
+			"Bars":
+			[
+				{ "Type":"StartBar" },
+				{ 
+					"Type":"BlockBar",
+					"Items":
+					[
+						{ "Name":"Star" }
+					]				
+				},
+				{ "Type":"Bar" },
+				{ "Type":"BlockBar" },
+				{ 
+					"Type":"Bar",
+					"Items":
+					[
+						{ "Name":"Star" }
+					]
+				},
+				{ "Type":"BlockBar"},
+				{ "Type":"EndBar" }
+			]
+		}
+    }
+}

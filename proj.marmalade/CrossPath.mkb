@@ -1,0 +1,148 @@
+options
+{
+	module_path="../../../cocos2dx/proj.marmalade/;../../../CocosDenshion/proj.marmalade/;../../../extensions/proj.marmalade/;../../../external/chipmunk/proj.marmalade/;../../../external/Box2D/proj.marmalade/"
+	s3e-data-dir = "../Resources/"
+}
+
+includepaths
+{
+	../Classes
+}
+subprojects
+{
+	IwGL
+	cocos2dx
+	cocos2dx-ext
+	Box2D
+	CocosDenshion
+#	chipmunk
+}
+
+defines
+{
+	CC_ENABLE_BOX2D_INTEGRATION=1
+}
+assets
+{
+	(../Resources)
+}
+
+files
+{
+	[Main]
+	(src)
+	Main.h
+	Main.cpp
+
+	(../Classes)
+	AppDelegate.cpp
+	AppDelegate.h
+	HelloWorldScene.cpp
+	HelloWorldScene.h
+
+	(../Classes/Entity)
+	Entity.cpp
+	Entity.h
+	PlayerBall.cpp
+	PlayerBall.h
+	(../Classes/Entity/Bar)
+	Bar.cpp
+	Bar.h
+	EndBar.cpp
+	EndBar.h
+	StartBar.cpp
+	StartBar.h
+	BlockBar.cpp
+	BlockBar.h
+	(../Classes/Entity/Item)
+	Bomb.cpp
+	Bomb.h
+	Bonus.cpp
+	Bonus.h
+	Item.cpp
+	Item.h
+	StarItem.cpp
+	StarItem.h
+	(../Classes/Level)
+	LevelManager.cpp
+	LevelManager.h
+	(../Classes/Level/Logic)
+	Background.cpp
+	Background.h
+	Event.cpp
+	Event.h
+	Timeline.cpp
+	Timeline.h
+	Track.cpp
+	Track.h
+	UpDrawable.cpp
+	UpDrawable.h
+	(../Classes/Level/Logic/Event)
+	GameOverEvent.cpp
+	GameOverEvent.h
+	LevelEndEvent.cpp
+	LevelEndEvent.h
+	LevelStartEvent.cpp
+	LevelStartEvent.h
+	PlayerDeadEvent.cpp
+	PlayerDeadEvent.h
+	(../Classes/rapidjson)
+	document.h
+	filestream.h
+	prettywriter.h
+	rapidjson.h
+	reader.h
+	reader.h
+	stringbuffer.h
+	writer.h
+	(../Classes/rapidjson/internal)
+	pow10.h
+	stack.h
+	strfunc.h
+	(../Classes/Scene)
+	GameScene.cpp
+	GameScene.h
+	MenuScene.cpp
+	MenuScene.h
+	LevelScene.cpp
+	LevelScene.h
+	LevelSelectScene.cpp
+	LevelSelectScene.h
+	OptionsScene.cpp
+	OptionsScene.h
+	(../Classes/UI)
+	CCButton.cpp
+	CCButton.h
+	CCLevelButton.cpp
+	CCLevelButton.h
+	CCModal.cpp
+	CCModal.h
+	ModalManager.cpp
+	ModalManager.h
+	(../Classes/Util)
+	CommonCallbacks.cpp
+	CommonCallbacks.h
+	CommonKeys.cpp
+	CommonKeys.h
+	FileLoader.cpp
+	FileLoader.h
+	JsonParser.cpp
+	JsonParser.h
+}
+
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+	blackberry-author='Robert Peralta'
+	blackberry-authorid='gYAAgEgCWRH15yzvhPODLv_6W0A'
+	caption='CrossPath'
+	copyright='Rapito'
+	name='Direction'
+	provider='Fingled'
+	version-major=2
+	version-minor=0
+	version-revision=0
+	version-string='2'
+}
+

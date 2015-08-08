@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity">
+      <UniqueIdentifier>{5954635a-c0fd-488c-8a50-fecb923c680e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Level">
+      <UniqueIdentifier>{4773affc-d0b5-49f9-bb6a-065ed598aaba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{4d7cf449-b710-469c-b1ea-226e490840e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\UI">
+      <UniqueIdentifier>{9fa2b6c7-f6be-4fa5-a0c6-db20cf9f8ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Util">
+      <UniqueIdentifier>{5756d04c-f1e2-4f0a-830a-18b063d78b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity\Bar">
+      <UniqueIdentifier>{a7a760a9-0e3e-412f-a52b-79f2c7ead34d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity\Item">
+      <UniqueIdentifier>{b65465db-e19b-4193-aeaf-da2db595a1b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Level\Logic">
+      <UniqueIdentifier>{736e019e-f5b7-4e3a-966d-e6858cf23ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\rapidjson">
+      <UniqueIdentifier>{80b71ca1-21a9-40a4-a28e-33d43bb22908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3d16aabf-6c8e-4fbd-bf93-ed1ecff99ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Levels">
+      <UniqueIdentifier>{e718f00e-fd30-4fc6-a232-b4af2d8143f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Level\Logic\Event">
+      <UniqueIdentifier>{df7fa712-c61b-4c11-87c0-c3c6ad1180fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GameScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\MenuScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level\Logic\Background.cpp">
+      <Filter>Classes\Level\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\CommonKeys.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Entity.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\PlayerBall.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Item\Bomb.cpp">
+      <Filter>Classes\Entity\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Item\Bonus.cpp">
+      <Filter>Classes\Entity\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Item\Item.cpp">
+      <Filter>Classes\Entity\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Bar\Bar.cpp">
+      <Filter>Classes\Entity\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Bar\EndBar.cpp">
+      <Filter>Classes\Entity\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Bar\StartBar.cpp">
+      <Filter>Classes\Entity\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level\Logic\Event.cpp">
+      <Filter>Classes\Level\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level\Logic\Timeline.cpp">
+      <Filter>Classes\Level\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level\Logic\Track.cpp">
+      <Filter>Classes\Level\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level\Logic\UpDrawable.cpp">
+      <Filter>Classes\Level\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\CCButton.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\CCModal.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\ModalManager.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\CommonCallbacks.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\FileLoader.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\JsonParser.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\LevelScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\LevelSelectScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\OptionsScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level\LevelManager.cpp">
+      <Filter>Classes\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\CCLevelButton.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level\Logic\Event\LevelEndEvent.cpp">
+      <Filter>Classes\Level\Logic\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level\Logic\Event\LevelStartEvent.cpp">
+      <Filter>Classes\Level\Logic\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Item\StarItem.cpp">
+      <Filter>Classes\Entity\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Bar\BlockBar.cpp">
+      <Filter>Classes\Entity\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level\Logic\Event\GameOverEvent.cpp">
+      <Filter>Classes\Level\Logic\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level\Logic\Event\PlayerDeadEvent.cpp">
+      <Filter>Classes\Level\Logic\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\PlayerLife.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GameScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\MenuScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level\Logic\Background.h">
+      <Filter>Classes\Level\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\CommonKeys.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Entity.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\PlayerBall.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Item\Bomb.h">
+      <Filter>Classes\Entity\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Item\Bonus.h">
+      <Filter>Classes\Entity\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Item\Item.h">
+      <Filter>Classes\Entity\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Bar\Bar.h">
+      <Filter>Classes\Entity\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Bar\EndBar.h">
+      <Filter>Classes\Entity\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Bar\StartBar.h">
+      <Filter>Classes\Entity\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level\Logic\Event.h">
+      <Filter>Classes\Level\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level\Logic\Timeline.h">
+      <Filter>Classes\Level\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level\Logic\Track.h">
+      <Filter>Classes\Level\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level\Logic\UpDrawable.h">
+      <Filter>Classes\Level\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\CCButton.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\CCModal.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\ModalManager.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\CommonCallbacks.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\FileLoader.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\JsonParser.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\LevelScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\LevelSelectScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\OptionsScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level\LevelManager.h">
+      <Filter>Classes\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rapidjson\prettywriter.h">
+      <Filter>Classes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rapidjson\rapidjson.h">
+      <Filter>Classes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rapidjson\stringbuffer.h">
+      <Filter>Classes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rapidjson\reader.h">
+      <Filter>Classes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rapidjson\writer.h">
+      <Filter>Classes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rapidjson\filestream.h">
+      <Filter>Classes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rapidjson\document.h">
+      <Filter>Classes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\CCLevelButton.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level\Logic\Event\LevelEndEvent.h">
+      <Filter>Classes\Level\Logic\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level\Logic\Event\LevelStartEvent.h">
+      <Filter>Classes\Level\Logic\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Item\StarItem.h">
+      <Filter>Classes\Entity\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Bar\BlockBar.h">
+      <Filter>Classes\Entity\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level\Logic\Event\GameOverEvent.h">
+      <Filter>Classes\Level\Logic\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level\Logic\Event\PlayerDeadEvent.h">
+      <Filter>Classes\Level\Logic\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\PlayerLife.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resources\Configuration Files\Legend.txt">
+      <Filter>Resources\Levels</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Configuration Files\Level1.cplc">
+      <Filter>Resources\Levels</Filter>
+    </None>
+    <None Include="..\Resources\Configuration Files\LevelArchive.cpla">
+      <Filter>Resources\Levels</Filter>
+    </None>
+    <None Include="..\Resources\Configuration Files\Level3.cplc">
+      <Filter>Resources\Levels</Filter>
+    </None>
+    <None Include="..\Resources\Configuration Files\Level4.cplc">
+      <Filter>Resources\Levels</Filter>
+    </None>
+    <None Include="..\Resources\Configuration Files\Level2.cplc">
+      <Filter>Resources\Levels</Filter>
+    </None>
+    <None Include="..\Resources\Configuration Files\Level5.cplc">
+      <Filter>Resources\Levels</Filter>
+    </None>
+  </ItemGroup>
+</Project>

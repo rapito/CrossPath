@@ -1,0 +1,76 @@
+{
+    "Level": 
+	{
+        "Title": "Level 4",
+		"Next": "Level5.cplc",
+		"Speed": 25.0,
+		"Events":
+		[
+			{"Name":"LevelStart"}
+		],
+		"Background":
+		{
+			"Type":"Fixed",
+			"Image":"BG_LEVEL2.png",
+			"Music":"LEVEL_BG_1.mp3"
+		},
+		"Track":
+		{
+			"Player": { "Type": "Base" },
+			"Bars":
+			[
+				{ "Type":"StartBar" },
+				{ 
+					"Type":"BlockBar",
+					"Items":
+					[
+						{ "Name":"Star" }
+					]				
+				},
+				{ "Type":"Bar" },
+				{ "Type":"Bar" },
+				{ "Type":"Bar" },
+				{ "Type":"Bar" },
+				{ "Type":"BlockBar" },
+				{ 
+					"Type":"Bar",
+					"Items":
+					[
+						{ "Name":"Star" }
+					]
+				},
+				{ "Type":"Bar" },
+								{ 
+					"Type":"Bar",
+					"Items":
+					[
+						{ "Name":"Star" }
+					]
+				},
+				{ "Type":"Bar" },
+				{ "Type":"BlockBar"},
+				{ "Type":"BlockBar"},
+				{ "Type":"BlockBar"},				
+				{ "Type":"Bar" },
+				{ "Type":"BlockBar"},
+				{ "Type":"Bar" },
+				{ "Type":"BlockBar"},
+				{ "Type":"Bar" },
+				{ "Type":"BlockBar"},
+				{ "Type":"Bar" },
+				{ "Type":"Bar" },
+				{ "Type":"BlockBar"},
+				{ "Type":"BlockBar"},
+				{ "Type":"BlockBar"},				
+				{ "Type":"Bar" },
+				{ "Type":"BlockBar"},
+				{ "Type":"Bar" },
+				{ "Type":"BlockBar"},
+				{ "Type":"Bar" },
+				{ "Type":"BlockBar"},
+				{ "Type":"Bar" },
+				{ "Type":"EndBar" }
+			]
+		}
+    }
+}

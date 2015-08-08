@@ -1,0 +1,14 @@
+{
+    "LevelArchive": 
+	{
+        "Name": "Stage 1",
+        "Levels": 
+		[
+            { "File": "Level1.cplc" },
+            { "File": "Level2.cplc" },
+            { "File": "Level3.cplc" },
+            { "File": "Level4.cplc" },
+            { "File": "Level5.cplc" }
+        ]
+    }
+}
